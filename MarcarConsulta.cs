@@ -65,5 +65,10 @@ namespace FrontClinicaMedica
             this.Hide();
             new HorariosDisponiveis(info).Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new VerConsultas().ShowDialog();
+        }
     }
 }

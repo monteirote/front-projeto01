@@ -101,5 +101,27 @@ namespace FrontClinicaMedica.DALs
                 return false;
             }
         }
+
+        public async static Task<List<GetAppointment>> BuscarAppointmentsPorUser () {
+            HttpClient client = new HttpClient();
+
+            try
+            {
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", UsuarioInfo.JWTToken);
+
+                HttpResponseMessage response = await client.GetAsync(EnderecoAPI + "appointment/patient?email=" + UsuarioInfo.Email);
+                response.EnsureSuccessStatusCode();
+
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+
+                var results = JsonSerializer.Deserialize<List<GetAppointment>>(jsonResponse);
+
+                return results;
+            }
+            catch (HttpRequestException e)
+            {
+                return null;
+            }
+        }
     }
 }
