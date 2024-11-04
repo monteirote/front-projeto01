@@ -10,7 +10,6 @@ C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.ex
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.pdb
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontCli.00BBF0D6.Up2Date
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\System.Buffers.dll
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\System.Memory.dll
@@ -30,3 +29,17 @@ C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\System.Text.Json.xml
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\System.ValueTuple.xml
 C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.MarcarConsulta.resources
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.csproj.CopyComplete
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.HorariosDisponiveis.resources
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.Bcl.TimeProvider.dll
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.Bcl.TimeProvider.xml
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\bin\Debug\System.IdentityModel.Tokens.Jwt.xml

@@ -23,9 +23,9 @@ namespace FrontClinicaMedica
             string email = textBox1.Text;
             string senha = textBox2.Text;
 
-            var token = await UsuarioDAL.FazerLogin(new Models.UsuarioLogin { Email = email, Password = senha });
+            var token = await UsuarioDAL.FazerLogin(new UsuarioLogin { Email = email, Password = senha });
 
-            UsuarioInfo.JWTToken = token;
+            UsuarioInfo.SetToken(token);
 
             var marcarConsulta = new MarcarConsulta();
             marcarConsulta.Show();

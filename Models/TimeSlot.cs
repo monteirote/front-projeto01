@@ -14,4 +14,21 @@ namespace FrontClinicaMedica.Models
         public DateTime EndTime { get; set; }
         public bool IsAvailable { get; set; }
     }
+
+    public class GetTimeSlot
+    {
+        public int id { get; set; }
+        public DoctorTimeSlot doctor { get; set; }
+        public DateTime startTime { get; set; }
+        public DateTime endTime { get; set; }
+        public bool isAvailable { get; set; }
+    }
+
+    public class SimpleTimeSlotViewModel
+    {
+        public int Id { get; set; }
+        public DateTime StartTime { get; set; } = new DateTime();
+        public DateTime EndTime { get; set; } = new DateTime();
+        public bool IsAvailable { get; set; } = false;
+    }
 }

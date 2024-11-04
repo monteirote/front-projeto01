@@ -8,9 +8,18 @@ namespace FrontClinicaMedica.Models
 {
     public class Doctor
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Specialty { get; set; }
-
+        public int id { get; set; }
+        public string name { get; set; } = string.Empty;
+        public string specialty { get; set; } = string.Empty;
+        public string profilePicture { get; set; } = string.Empty;
+        public List<TimeSlot> availability { get; set; } = new List<TimeSlot>();
     }
+
+    public class DoctorTimeSlot
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string specialty { get; set; }
+    }
+
 }
