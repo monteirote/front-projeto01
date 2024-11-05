@@ -138,7 +138,6 @@
             this.Controls.Add(this.label1);
             this.Name = "FormularioUsuario";
             this.Text = "FormularioUsuario";
-            this.Load += new System.EventHandler(this.FormularioUsuario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

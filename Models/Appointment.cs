@@ -37,4 +37,15 @@ namespace FrontClinicaMedica.Models
         public SimpleTimeSlotViewModel timeSlot { get; set; } = new SimpleTimeSlotViewModel();
         public string notes { get; set; } = string.Empty;
     }
+
+
+    public class GetAppointmentByEmail
+    {
+        public int id { get; set; }
+        public GetTSDoctor doctor { get; set; }
+        public User patient { get; set; } = new User();
+        public DateTime createdAt { get; set; }
+        public SimpleTimeSlotViewModel timeSlot { get; set; } = new SimpleTimeSlotViewModel();
+        public string notes { get; set; } = string.Empty;
+    }
 }

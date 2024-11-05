@@ -28,6 +28,7 @@ namespace FrontClinicaMedica
             var sucesso = await ConsultasDAL.CriarMedico(obj);
             var mensagem = sucesso ? "Médico adicionado com sucesso" : "Falha ao adicionar Médico";
             MessageBox.Show(mensagem);
+            this.Close();
         }
     }
 }

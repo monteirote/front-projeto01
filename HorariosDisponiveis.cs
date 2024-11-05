@@ -64,5 +64,11 @@ namespace FrontClinicaMedica
             this.Hide();
             new MarcarConsulta().Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new MarcarConsulta().Show();
+        }
     }
 }

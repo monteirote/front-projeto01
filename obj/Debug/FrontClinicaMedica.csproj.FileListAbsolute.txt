@@ -142,3 +142,9 @@ C:\Users\unisanta\Desktop\proj\front-projeto01\obj\Debug\FrontClinicaMedica.Esco
 C:\Users\unisanta\Desktop\proj\front-projeto01\obj\Debug\FrontClinicaMedica.FormularioUsuario.resources
 C:\Users\unisanta\Desktop\proj\front-projeto01\obj\Debug\FrontClinicaMedica.FormularioMedico.resources
 C:\Users\unisanta\Desktop\proj\front-projeto01\obj\Debug\FrontClinicaMedica.FormularioHorario.resources
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.EscolherFormularioCriacao.resources
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.FormularioHorario.resources
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.FormularioMedico.resources
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.FormularioUsuario.resources
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.PerguntaVersao.resources
+C:\Users\Matheus\Desktop\proj\FrontClinicaMedica\obj\Debug\FrontClinicaMedica.VerConsultas.resources

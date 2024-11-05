@@ -29,4 +29,13 @@ namespace FrontClinicaMedica.Models
         public string profilePicture { get; set; }  
     }
 
+    public class GetTSDoctor
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string profilePicture { get; set; }
+        public TimeSlot[] availability { get; set; }
+        public string specialty { get; set; }
+    }
+
 }

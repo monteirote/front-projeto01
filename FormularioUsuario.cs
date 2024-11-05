@@ -34,10 +34,5 @@ namespace FrontClinicaMedica
             MessageBox.Show(mensagem);
             this.Close();
         }
-
-        private void FormularioUsuario_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

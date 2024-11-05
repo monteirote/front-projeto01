@@ -113,6 +113,7 @@ namespace FrontClinicaMedica.DALs
                 response.EnsureSuccessStatusCode();
 
                 string jsonResponse = await response.Content.ReadAsStringAsync();
+                var teste = jsonResponse.Replace("\"", "");
 
                 var results = JsonSerializer.Deserialize<List<GetAppointment>>(jsonResponse);
 
@@ -185,6 +186,27 @@ namespace FrontClinicaMedica.DALs
             catch (Exception e)
             {
                 var aaa = e;
+                return false;
+            }
+        }
+
+        public async static Task<bool> AddTimeSlot (PostTimeSlot timeslot)
+        {
+            try
+            {
+                var json = JsonSerializer.Serialize(timeslot);
+
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+                HttpClient client = new HttpClient();
+
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", UsuarioInfo.JWTToken);
+                var end = EnderecoAPI + "timeslot";
+
+                HttpResponseMessage response = await client.PostAsync(end, content);
+                response.EnsureSuccessStatusCode();
+
+                return true;
+            } catch {
                 return false;
             }
         }

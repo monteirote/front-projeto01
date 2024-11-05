@@ -26,5 +26,16 @@ namespace FrontClinicaMedica
         {
             new FormularioMedico().Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new FormularioHorario().Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new PerguntaVersao().Show();
+        }
     }
 }

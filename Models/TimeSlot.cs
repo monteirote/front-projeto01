@@ -31,4 +31,11 @@ namespace FrontClinicaMedica.Models
         public DateTime endTime { get; set; } = new DateTime();
         public bool isAvailable { get; set; } = false;
     }
+
+    public class PostTimeSlot
+    {
+        public int doctorId { get; set; }
+        public DateTime startTime { get; set; }
+        public DateTime endTime { get; set; }
+    }
 }

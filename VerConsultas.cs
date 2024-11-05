@@ -23,13 +23,18 @@ namespace FrontClinicaMedica
 
         private async void VerConsultas_Load(object sender, EventArgs e)
         {
+            CarregarTela();
+        }
+
+        private async void CarregarTela()
+        {
+            comboBox1.Items.Clear();
             ConsultaSelecionadaAtualmente = null;
             consultas = await ConsultasDAL.BuscarAppointmentsPorUser();
             foreach (var h in consultas)
             {
                 comboBox1.Items.Add(h.doctor.name + " || " + h.timeSlot.startTime.ToString("g") + " até " + h.timeSlot.endTime.ToString("t"));
             }
-
         }
 
         private void button1_Click(object sender, EventArgs e)

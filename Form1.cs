@@ -21,10 +21,17 @@ namespace FrontClinicaMedica
 
         private async void button1_Click(object sender, EventArgs e)
         {
+            label4.Text = "";
             string email = textBox1.Text;
             string senha = textBox2.Text;
 
             var token = await UsuarioDAL.FazerLogin(new UsuarioLogin { Email = email, Password = senha });
+
+            if (token == "Erro")
+            {
+                label4.Text = "Usuário ou senha inválidos.";
+                return;
+            }
 
             UsuarioInfo.SetToken(token);
 
