@@ -16,6 +16,7 @@ namespace FrontClinicaMedica
         public Form1()
         {
             InitializeComponent();
+            textBox2.UseSystemPasswordChar = true;
         }
 
         private async void button1_Click(object sender, EventArgs e)
@@ -26,6 +27,15 @@ namespace FrontClinicaMedica
             var token = await UsuarioDAL.FazerLogin(new UsuarioLogin { Email = email, Password = senha });
 
             UsuarioInfo.SetToken(token);
+
+
+            if (UsuarioInfo.Role == "Admin")
+            {
+                var formPergunta = new PerguntaVersao();
+                formPergunta.Show();
+                this.Hide();
+                return;
+            }
 
             var marcarConsulta = new MarcarConsulta();
             marcarConsulta.Show();

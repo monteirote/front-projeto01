@@ -26,9 +26,9 @@ namespace FrontClinicaMedica.Models
 
     public class SimpleTimeSlotViewModel
     {
-        public int Id { get; set; }
-        public DateTime StartTime { get; set; } = new DateTime();
-        public DateTime EndTime { get; set; } = new DateTime();
-        public bool IsAvailable { get; set; } = false;
+        public int id { get; set; }
+        public DateTime startTime { get; set; } = new DateTime();
+        public DateTime endTime { get; set; } = new DateTime();
+        public bool isAvailable { get; set; } = false;
     }
 }

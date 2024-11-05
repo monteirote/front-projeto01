@@ -22,4 +22,11 @@ namespace FrontClinicaMedica.Models
         public string specialty { get; set; }
     }
 
+    public class CreateDoctor
+    {
+        public string name { get; set; }
+        public string specialty { get; set; }
+        public string profilePicture { get; set; }  
+    }
+
 }

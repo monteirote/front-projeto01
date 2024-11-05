@@ -44,6 +44,30 @@ namespace FrontClinicaMedica
                 return "Erro";
             }
         }
+
+
+        public async static Task<bool> CriarUsuario(UsuarioSignup user) {
+
+            var json = JsonSerializer.Serialize(user);
+
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            HttpClient client = new HttpClient();
+
+            try
+            {
+                var endereco = EnderecoAPI + "account/signup";
+                HttpResponseMessage response = await client.PostAsync(endereco, content);
+                response.EnsureSuccessStatusCode();
+
+                string responseBody = await response.Content.ReadAsStringAsync();
+
+                return true;
+            }
+            catch (HttpRequestException e)
+            {
+                return false;
+            }
+        }
     }
 }
 
